@@ -100,7 +100,7 @@ def convertToArray(linked_list):
     array = []
     
     while linked_list.count() > 0:
-            array.append(linked_list.pop().getData())
+        array.append(linked_list.pop().getData())
     
     linked_list.clearList()
 
